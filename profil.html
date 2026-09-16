@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ms">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Diri | Portfolio Saya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <audio id="backgroundAudio" autoplay loop preload="auto">
+      <source src="assets/Background.mp3" type="audio/mpeg" />
+    </audio>
+    <div class="bg-grid"></div>
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+    <div class="orb orb-three"></div>
+
+    <header class="floating-menu">
+      <div class="container nav-shell">
+        <div class="brand-wrap">
+          <div class="brand-mark">&lt;/&gt;</div>
+          <span>MyITJourney</span>
+        </div>
+        <nav class="top-nav" id="primary-navigation">
+          <a href="index.html">Home</a>
+          <a href="profil.html" class="active">Profil</a>
+          <a href="kemahiran.html">Kemahiran</a>
+          <a href="pendidikan.html">Pendidikan</a>
+          <a href="projek.html">Projek</a>
+          <a href="pengalaman.html">Pengalaman</a>
+          <a href="matlamat.html">Matlamat</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button class="menu-toggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="primary-navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <button id="audioToggle" class="audio-btn" type="button" aria-label="Mainkan audio latar">
+          <span>Audio</span>
+          <span class="audio-icon">♫</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-banner">
+        <div class="container banner-inner">
+          <div>
+            <p class="tagline">PROFIL DIRI</p>
+            <h1>Maklumat <span class="gradient-text">Peribadi</span></h1>
+          </div>
+          <div class="banner-pills">
+            <span>Identity</span>
+            <span>Vision</span>
+            <span>Focus</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="container section-block">
+        <div class="profile-layout reveal">
+          <div class="profile-photo-box">
+            <div class="avatar-box large-avatar">
+              <div class="avatar-glow"></div>
+              <img src="assets/profile.jpg" alt="Gambar profil Muhammad Farhan" class="profile-photo large-photo" />
+            </div>
+          </div>
+          <div class="profile-details">
+            <p class="mini-label">MAKLUMAT PERIBADI</p>
+            <h3>Muhammad Farhan Bin Zainal Abidin</h3>
+            <p>Saya ialah seorang pelajar Diploma Teknologi Maklumat yang aktif dalam bidang IT, multimedia, dan kepimpinan. Saya mempunyai minat terhadap reka bentuk digital, penyuntingan video, serta pembangunan laman web yang kreatif dan berkesan.</p>
+            <ul class="detail-list">
+              <li><span>Kursus</span><strong>Diploma Teknologi Maklumat</strong></li>
+              <li><span>Lokasi</span><strong>Johor, Malaysia</strong></li>
+              <li><span>Emel</span><strong><a href="mailto:fzzfarhanzainal@gmail.com">fzzfarhanzainal@gmail.com</a></strong></li>
+              <li><span>Telefon</span><strong><a href="tel:+601137757475">011-37757475</a></strong></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>MyITJourney</strong>
+          <p>Muhammad Farhan Bin Zainal Abidin</p>
+        </div>
+        <nav class="footer-nav" aria-label="Pautan footer">
+          <a href="index.html">Home</a>
+          <a href="profil.html">Profil</a>
+          <a href="projek.html">Projek</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <small>&copy; 2026 Muhammad Farhan Bin Zainal Abidin</small>
+      </div>
+    </footer>
+  </body>
+</html>
